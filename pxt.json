@@ -1,0 +1,32 @@
+{
+    "name": "microbit_bme280_bh1750_lcd1602",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "bluetooth": "*",
+        "BME280": "github:makecode-extensions/bme280#7d4303b3b529e21d39f6363b013a0ca5b87a7fb7",
+        "BH1750": "github:makecode-extensions/bh1750#501225bab99b26119009af9b1851105d57edc043",
+        "i2cLCD1602": "github:makecode-extensions/i2clcd1602#030ffbfdcd33b80761c014717d3caf8e6b4e14db",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.2.13",
+        "tag": "v1.2.13",
+        "commits": "https://github.com/Microsoft/pxt-microbit/commits/5d5b348757b15c6d00f5b7f560fd69592ca29424",
+        "target": "5.0.12",
+        "pxt": "4.4.7",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
